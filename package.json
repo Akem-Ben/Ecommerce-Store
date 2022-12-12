@@ -1,9 +1,12 @@
 {
   "name": "testsexpress",
+  "homepage": "https://Akem-Ben.github.io/testing",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts":{
+    "predeploy": "yarn build",
+    "deploy": "gh-pages build",
     "start": "nodemon dist/app.js",
     "compile": "tsc -w"
   },
